@@ -45,8 +45,9 @@ button
 
 .letter
 {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
     display: flex;
-    grid-row: 3 / span 1;   
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -68,6 +69,14 @@ button
 {
     
     grid-row: 2 / span 1;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%); 
+    grid-template-rows: repeat(3, 33.3%);
+}
+
+.three-by-three-grid-2
+{
+    grid-row: 3 / span 1;
     display: grid;
     grid-template-columns: repeat(3, 33.3%); 
     grid-template-rows: repeat(3, 33.3%);
