@@ -51,3 +51,8 @@ button
     align-items: center;
     background-color: #397dc6;
 }
+
+.hide-button
+{
+    background-color: #579feb;
+}
