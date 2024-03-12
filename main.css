@@ -20,5 +20,12 @@
 {
     display: grid;
     grid-template-columns: repeat(3, 33.3%); 
-    grid-template-rows: repeat(3, 200px);
+    grid-template-rows: repeat(1, 600px);
+}
+
+.letter
+{
+    display: grid;
+    grid-template-columns: repeat(1, 100%); 
+    grid-template-rows: repeat(3, 33.3%);
 }
