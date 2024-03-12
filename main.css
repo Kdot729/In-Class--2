@@ -55,9 +55,20 @@ button
 
 .hide-button
 {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
     background-color: #579feb;
     display: none;
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.three-by-three-grid
+{
+    
+    grid-row: 2 / span 1;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%); 
+    grid-template-rows: repeat(3, 33.3%);
 }
