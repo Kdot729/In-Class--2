@@ -29,3 +29,12 @@
     grid-template-columns: repeat(1, 100%); 
     grid-template-rows: repeat(3, 33.3%);
 }
+
+.letter
+{
+    display: flex;
+    grid-row: 3 / span 1;   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
