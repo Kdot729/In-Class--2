@@ -15,3 +15,10 @@
 {
     text-align: center;
 }
+
+#abc
+{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%); 
+    grid-template-rows: repeat(3, 200px);
+}
